@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 
 public class ORDSTests {
-    String BASE_URL = "http://3.90.112.152:1000/ords/hr";
+    String BASE_URL = "http://54.224.118.38:1000/ords/hr";
 
     @Test
     @DisplayName("Get list of all employees")
@@ -60,7 +60,7 @@ public class ORDSTests {
     }
 
     /**
-     * given base URI = http://3.90.112.152:1000/ords/hr
+     * given base URI = http://54.224.118.38:1000/ords/hr
      * when user sends get request to "/countries"
      * then user verifies that status code is 200
      */
