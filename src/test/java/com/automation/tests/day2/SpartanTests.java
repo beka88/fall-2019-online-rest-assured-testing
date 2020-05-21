@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 
 public class SpartanTests {
 
-    String BASE_URL = "http://3.90.112.152:8000";
+    String BASE_URL = "http://54.224.118.38:8000";
 
     //URI (Uniform Resource Identifier) = URL + URN = http://www.google.com/index.html
     //URL (Uniform Resource Locator)    = http://www.google.com
